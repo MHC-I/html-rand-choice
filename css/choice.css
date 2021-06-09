@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: cornsilk;
+}
+
+#dv {
+    width: 800px;
+    margin: 20px auto;
+    border: 4px solid darkviolet;
+    text-align: center;
+}
+
+ul li {
+    vertical-align: top;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    border-radius: 35%;
+    border: 3px dashed palevioletred;
+    text-align: center;
+    line-height: 50px;
+    margin: 5px 5px;
+}
+
+li.change {
+    background-color: greenyellow;
+    font-size: 15px;
+    color: black;
+    font-weight: bolder;
+}
+
+#btu, #btu1 {
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px 50px 0 50px;
+    color: brown;
+    background-color: pink;
+}
+
+.ch {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin: 12px auto;
+    border: 2px solid blue;
+}
+
+.luc {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px auto;
+    text-align: center;
+    color: green;
+}
+
+.name {
+    position: absolute;
+    font-size: 35px;
+    left: 40px;
+    top: 50px;
+}
+
+h1 {
+    text-align: center;
+}
